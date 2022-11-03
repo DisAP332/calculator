@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+}
+.bottom {
+    display:flex;
+    flex-direction:row;
+    max-width:400px;
+}
+.calcContainer{
+    border-style: solid;
+    flex-direction:column;
+}
+.intContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+.integerButton{
+    width:100px;
+    height:100px;
+}
+.operatorButton{
+    width:100px;
+    height:67px;
+}
+.displayContainer{
+    height: 100px;
+    align-items: flex-start;
+    text-align:right;
+    font-size: 100px;
+    padding-right:30px;
+    padding-bottom:30px;
+}
+.operationDisplay{
+    height: 50px; 
+    font-size: 34px;
+    padding-left:30px;
+    padding-top:10px;
+}
+.operatorContainer{
+    justify-content:flex-end;
+    width: 300px;
+}
